@@ -124,7 +124,7 @@ eFull
 
 #### Figure 3 ####
 # treatment is corridor, stepping stone, all locations, AM, or NOTHING
-# 3 effort or 8 max relocations
+# 4 effort or 8 max relocations
 # landscapes are not flat
 commDF2 <- commDF[ ((commDF$treatment==1 & commDF$effort==4) | (commDF$treatment==8 & commDF$effort==8)| commDF$treatment==0) & commDF$landscape %in% c(3,5),]
 
